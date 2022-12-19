@@ -1,0 +1,67 @@
+fr:
+  layouts:
+    application:
+      title: "La bibliothèque pragmatique"
+      home: "Domicile"
+      questions: "Des questions"
+      news: "Des nouvelles"
+      contact: "Contacter"
+  store:
+    index:
+      title_html: "Votre catalogue pragmatique"
+      add_html: "Ajouter au chariot"
+  carts:
+    cart:
+      title: "Votre panier"
+      empty: "Panier vide"
+      checkout: "Vérifier"
+  number:
+    currency:
+      format:
+        unit: "$US"
+        precision: 2
+        separator: ","
+        delimiter: "."
+        format: "%n&nbsp;%u"
+  orders:
+    new:
+      legend: "Veuillez saisir vos coordonnées"
+    form:
+      name: "Nom"
+      address_html: "Adresse"
+      email: "E-mail"
+      #pay_type: "Payer avec"
+      #pay_prompt_html: "Choisissez une méthode de paiement"
+      submit: "Passer la commande"
+      # pay_types:
+      #   check: "Vérifier"
+      #   credit_card: "Carte de crédit"
+      #   purchase_order: "Bon de commande"
+      # check_pay_type:
+      #   routing_number: "Routage #"
+      #   account_number: "Compte #"
+      # credit_card_pay_type:
+      #   cc_number: "CC #"
+      #   expiration_date: "Expiration"
+      # purchase_order_pay_type:
+      #   po_number: "Numéro de bon de commande"
+  activerecord:
+    errors:
+      messages:
+        inclusion: "pas sélectionné dans la liste"
+        blank: "ne peux pas être vide"
+    models:
+      order: "ordre"
+    attributes:
+      order:
+        address: "Adresse"
+        name: "Nom"
+        email: "Email"
+        pay_type: "Mode de paiement"
+  errors:
+    template:
+      body: "Il y a des problèmes avec les champs suivants:"
+      header:
+        one: "1 erreur empêche l'exécution de l'action"
+        other: "%{count} erreurs empêchent l'exécution de l'action"
+  thanks: "Nous vous remercions de votre commande"
